@@ -1,7 +1,7 @@
 """
 Programa que permite saber si un ano es bisiesto
 """
-print("***AÑO BISIESTO***")
+print("****AÑO BISIESTO****")
 
 anno = int(input("Ingrese año: "))
 if anno%4 !=0:
