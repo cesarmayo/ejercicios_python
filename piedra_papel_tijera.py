@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Escriba un programa que simule el juego Piedra, papel, tijera para dos jugadores (Inés y Juan).
 

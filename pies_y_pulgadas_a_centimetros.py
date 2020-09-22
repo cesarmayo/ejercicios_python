@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Escriba un programa que pida una distancia en pies y pulgadas y que escriba esa distancia en centímetros.
 

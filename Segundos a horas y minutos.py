@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Escriba un programa que pida una cantidade de segundos y escriba cuantas
 hora, minutos y segundos son

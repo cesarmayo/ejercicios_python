@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Escriba un programa que simule un juego en el que dos jugadores (Carmen y David) tiran dos dados. El que saque mayor puntuación
 total, gana. Si la puntuación total coincide, gana quien haya sacado el dado con el valor más alto. Si el valor más alto también

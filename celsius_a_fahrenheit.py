@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Escriba un programa que pida una temperatura en grados Celsius y que escriba esa temperatura en grados Fahrenheit.
 

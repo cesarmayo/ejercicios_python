@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Escriba un programa que pida dos números y que escriba su media aritmética.
 

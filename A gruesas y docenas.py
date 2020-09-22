@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Escriba un programa que pida una cantidad y que escriba cuantas gruesas,
 docenas y unidades son.

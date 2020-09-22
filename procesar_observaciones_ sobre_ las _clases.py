@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Un instituto de ensennanza de ingles necesita un programa que le permita cada dia, procesar observaciones sobre las clases de ese dia.
 El instituto dicta clases a estudiantes de distintos niveles y cada nivel tiene clases en un dia de la semana difrerente: los lunes se
