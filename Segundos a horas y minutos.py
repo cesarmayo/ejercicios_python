@@ -3,7 +3,9 @@
 Escriba un programa que pida una cantidade de segundos y escriba cuantas
 hora, minutos y segundos son
 """
+print(""""""""""""""""""""""""""""""""""""""""""")
 print("CONVERTIDOR DE SEGUNDOS A HORAS Y MINUTOS")
+print(""""""""""""""""""""""""""""""""""""""""""")
 seg = int(input("Escriba una cantidad en segundos: "))
 horas = seg//3600
 temp = seg%3600

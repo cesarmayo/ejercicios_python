@@ -2,9 +2,9 @@
 """
 Programa que permite saber si un ano es bisiesto
 """
-
+print("====================")
 print("****AÑO BISIESTO****")
-
+print("====================")
 anno = int(input("Ingrese año: "))
 if anno%4 !=0:
 	print("No es un año bisiesto")

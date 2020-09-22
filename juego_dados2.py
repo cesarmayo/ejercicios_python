@@ -6,6 +6,9 @@ coincide, empatan.
 """
 import random
 
+print("==============")
+print("JUEGO DE DADOS")
+print("==============")
 input("Es el turno de Carmen. Presione enter.")
 tiro_carmen_dado1 =(random.randint(1, 6))
 tiro_carmen_dado2 =(random.randint(1, 6))

@@ -4,7 +4,9 @@ Escriba un programa que simule un juego en el que dos jugadores (Álvaro y Bárb
 gana. Si la puntuación coincide, empatan.
 """
 import random
-
+print("==============")
+print("JUEGO DE DADOS")
+print("==============")
 input("Turno de Alvaro. presione enter..!")
 tiro_alvaro =(random.randint(1, 6))
 print("Alvaro ha sacado el numero: ",tiro_alvaro)

@@ -5,6 +5,10 @@ Gana el jugador que obtenga la mayor puntuación total, siempre que no se pase d
 """
 import random
 
+print("==============")
+print("JUEGO DE DADOS")
+print("==============")
+
 total_gloria = 0
 total_hector = 0
 
