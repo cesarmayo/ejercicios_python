@@ -1,4 +1,5 @@
 # coding=utf-8
+
 """
 Escriba un programa que simule el juego Piedra, papel, tijera para dos jugadores (Inés y Juan).
 
@@ -16,11 +17,13 @@ Resuelva este ejercicio utilizando la función random.randrange(), de manera que
 a papel y el valor 3 corresponda a Tijera.
 """
 import random
+
 print("=====================================")
-print("***JUEGO DE PIEDRA, PAPEL Y TIJERA***")
+print("|  JUEGO DE PIEDRA, PAPEL Y TIJERA  |")
 print("=====================================")
 
-print(input("Es el turno de Ines. Presione enter para continuar."))
+raw_input("Presione Enter para continuar...")
+
 opcion_ines = random.randrange(1,4)
 opcion_juan = random.randrange(1,4)
 

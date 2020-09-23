@@ -9,12 +9,12 @@ import random
 print("==============")
 print("JUEGO DE DADOS")
 print("==============")
-input("Es el turno de Carmen. Presione enter.")
+raw_input("Turno de Carmen. Presione Enter para continuar...")
 tiro_carmen_dado1 =(random.randint(1, 6))
 tiro_carmen_dado2 =(random.randint(1, 6))
 total_carmen = tiro_carmen_dado1 + tiro_carmen_dado2
 
-input("Es el turno de David. Presione enter.")
+raw_input("Turno de David. Presione Enter para continuar...")
 tiro_david_dado1 =(random.randint(1, 6))
 tiro_david_dado2 =(random.randint(1, 6))
 total_david = tiro_david_dado1 + tiro_david_dado2

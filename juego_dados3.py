@@ -11,9 +11,9 @@ print("==============")
 
 total_gloria = 0
 total_hector = 0
+raw_input("Turno de Gloria. Presione Enter para continuar...")
+raw_input("Turno de Hector. Presione Enter para continuar...")
 
-input("Es el turno de Gloria. Presione enter.")
-input("Es el turno de Hector. Presione enter.")
 
 for x in range (3):
 	tiro_gloria_dado =(random.randint(1, 6))
