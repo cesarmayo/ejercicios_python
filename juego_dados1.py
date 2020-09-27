@@ -1,7 +1,7 @@
 # coding=utf-8
 """
-Escriba un programa que simule un juego en el que dos jugadores (Álvaro y Bárbara) tiran un dado. El que saque el valor más alto,
-gana. Si la puntuación coincide, empatan.
+Escriba un programa que simule un juego en el que dos jugadores (Álvaro y Bárbara) tiran un dado.
+El que saque el valor más alto, gana. Si la puntuación coincide, empatan.
 """
 import random
 print("==============")

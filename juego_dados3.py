@@ -1,7 +1,8 @@
 # coding=utf-8
 """
-Escriba un programa que simule un juego en el que dos jugadores (Gloria y Héctor) sacan tres cartas al azar del 1 al 10.
-Gana el jugador que obtenga la mayor puntuación total, siempre que no se pase de quince, en cuyo caso el jugador pierde.
+Escriba un programa que simule un juego en el que dos jugadores (Gloria y Héctor) sacan tres
+cartas al azar del 1 al 10. Gana el jugador que obtenga la mayor puntuación total, siempre que
+no se pase de quince, en cuyo caso el jugador pierde.
 """
 import random
 
