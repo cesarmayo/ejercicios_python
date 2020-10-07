@@ -1,13 +1,20 @@
 """
 Escriba un programa que pida números enteros mientras sean cada vez más grandes.
 """
+print("====================")
+print("CADA VEZ MAS GRANDES")
+print("====================")
 
-primero = int(input("Escriba un numero: "))
-segundo =int(input(f"Escriba un número mayor que {primero}: "))
-while primero <= segundo:
-	primero = segundo
-	segundo =int(input(f"Escriba un número mayor que {segundo}: "))
-print(f"{segundo} no es mayor que {primero}")
+n1 = int(input("Escriba un numero: "))
+n2 = int(input(f"Escriba un numero mayor que {n1}: "))
+
+while n2 > n1:
+	n1 = n2
+	n2 = int(input(f"Escriba un numero mayor que {n1}: "))
+
+print()
+print(f"{n2} no es mayor que {n1}")
+
 	
 
 

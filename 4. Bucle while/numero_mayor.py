@@ -8,15 +8,12 @@ print("============")
 
 print()
 
-primero = int(input("Ingrese un numero: "))
-segundo = int(input("Ingrese un numero: "))
+n1 = int(input("Ingrese un numero entero: "))
+n2 = int(input("Ingrese otro numero entero: "))
 
-while primero >= segundo:
-	segundo = int(input(f"{primero} no es mayor que {segundo}. Inténtelo de nuevo: "))
-
-print()
-
-print(f"Los numeros que ha escrito son {primero} y {segundo}")
+while n2 <= n1:
+	n2 = int(input(f"*{n1} no es mayor que {n2}. Ingrese otro numero: "))
 
 print()
 
+print(f"Los numero que ha escrito son {n1} y {n2}")
