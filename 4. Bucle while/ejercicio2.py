@@ -4,20 +4,25 @@ Por cada numero, informar cuantos digitos pares y cuantos impares tiene. Al fina
 de digitos pares y de digitos impares leidos en total
 """
 
-par = 0
-impar = 0
+total_pares = 0
+total_impares = 0
 
 numero = int(input("Ingrese un numero entero positivo: "))
 
-while numero > 0:
-	numero = int(input("Ingrese otro numero entero positivo: "))
-	if numero%2 == 0:
-		par = par + 1
-	else:
-		impar = impar + 1
+while numero != 0:
+	pares = 0
+	impares = 0
+	while numero != 0:
+		ultimo_digito = numero%10
+		if ultimo_digito%2 == 0:
+			pares=+1
+		else:
+			impares+=1
+		numero = numero // 10
 
-print("Cantidad de numeros pares: ",par)
-print("Cantidad de numeros impares: ",impar)
+	print(f"El numero ingresado tiene {pares} digitos pares y {impares} digitos impares")
+	numero = int(input("Ingrese un numero entero positivo: "))
+
 
 
 
